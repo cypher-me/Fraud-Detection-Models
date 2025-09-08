@@ -20,5 +20,29 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-1. Run notebooks in order: 01 → 02 → 03 → 04 → 05 → 06
-2. Execute `python fraud_detection_app.py` for real-time detection
+
+### Step-by-step execution:
+1. **Data Preprocessing**: `01_data_preprocessing.ipynb`
+2. **Exploratory Analysis**: `02_eda.ipynb`
+3. **GNN Training**: `03_gnn_training.ipynb`
+4. **Autoencoder Training**: `04_tensorflow_anomaly.ipynb`
+5. **Ensemble Modeling**: `05_model_ensemble.ipynb`
+6. **Monitoring Dashboard**: `06_monitoring.ipynb`
+
+### Real-time deployment:
+```bash
+python fraud_detection_app.py
+```
+
+### Spark streaming simulation:
+```bash
+python src/spark_streaming.py
+```
+
+## Features
+- 🔥 Real-time Spark Streaming with Isolation Forest
+- 🧠 PyTorch GNN for transaction relationship modeling
+- 🤖 TensorFlow Autoencoder for anomaly detection
+- 🎯 Ensemble model with Optuna hyperparameter tuning
+- 📊 Interactive monitoring dashboard
+- 📝 Comprehensive logging and alerting
