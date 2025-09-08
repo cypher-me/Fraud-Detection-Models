@@ -1,0 +1,17 @@
+data/creditcard.csv
+data/
+creditcard.csv
+models/
+venv/
+.env
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+*.pyc
+logs/*.json
+logs/*.jsonl
+reports/*.png
+*.h5
+*.pth
+*.pkl
+data/creditcard.csv
